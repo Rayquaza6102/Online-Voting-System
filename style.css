@@ -1,0 +1,76 @@
+*,html{
+    margin : 0;
+    padding : 0;
+  }
+   
+   body{
+    overflow-x: hidden;
+  } 
+
+  #front-page{
+    width: 100vw;
+    height :100vh;
+    position : relative;
+  }
+
+   #hero{
+    position : absolute;
+    bottom : 50px;
+   }
+
+  .grad{
+    position : relative;
+    /* background: radial-gradient(circle, #0E153A, #3D5AF1, #22D1EE, #E2F3F5,#A31ACB, #E21818, #C9FDD7, #79D1C3, #6892D5); */
+
+    background: linear-gradient(-50deg,#F7F3F3,#C1EAF2,#00FFCA,#5CC2F2,#05BFDB,#088395,#3D5AF1,#191ba9,#0A4D68);
+    background-size: 300% 300%;
+    width: 100vw;
+    height: 100vh;
+    animation: gradient 10s cubic-bezier(0.61, 0.02, 0.44, 1.19) infinite;
+    transform: rotate(-15deg) scale(1.4)  translate(90px, -350px);
+    overflow: hidden;
+    margin : 0;
+    z-index: -99;
+  }
+  
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  nav{
+    opacity : 0.5;
+  }
+
+#landing-text{
+    /* text-align:r; */
+    font-size: 90px; 
+    font-weight: bold; 
+    margin-left: 150px; 
+    margin-top : 10px;
+    margin-bottom: 5%;
+    opacity: 0.8;
+    line-height: 80%;
+}
+
+#get-started-button{
+    margin-left: 21.6%;
+}
+
+#landing-img{
+    background-image:url('images/lpimg.jpeg'); 
+    background-position: right center;
+    background-size:cover;
+    height:500px;
+    margin-left: 130px;
+    margin-top: 30px;
+    border-radius: 5px;
+}

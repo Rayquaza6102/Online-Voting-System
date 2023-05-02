@@ -1,0 +1,19 @@
+{
+  "name": "online-voting-system",
+  "version": "1.0.0",
+  "description": "Basic Mern stack project and will integrate blockchain later",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rayquaza6102/Online-Voting-System.git"
+  },
+  "author": "Rayquaza6102",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rayquaza6102/Online-Voting-System/issues"
+  },
+  "homepage": "https://github.com/Rayquaza6102/Online-Voting-System#readme"
+}

@@ -22,7 +22,8 @@
     position : relative;
     /* background: radial-gradient(circle, #0E153A, #3D5AF1, #22D1EE, #E2F3F5,#A31ACB, #E21818, #C9FDD7, #79D1C3, #6892D5); */
 
-    background: linear-gradient(-50deg,#F7F3F3,#C1EAF2,#00FFCA,#5CC2F2,#05BFDB,#088395,#3D5AF1,#191ba9,#0A4D68);
+    /* background: linear-gradient(-50deg,#F7F3F3,#C1EAF2,#00FFCA,#5CC2F2,#05BFDB,#088395,#3D5AF1,#0A4D68); */
+    background: linear-gradient(-75deg,#3D5AF1,#088395,#05BFDB,#5CC2F2,#00FFCA,#C1EAF2,#F7F3F3);
     background-size: 300% 300%;
     width: 100vw;
     height: 100vh;
@@ -70,7 +71,14 @@
     background-position: right center;
     background-size:cover;
     height:500px;
-    margin-left: 130px;
+    width: 95%;
+    /* margin-left: 10px; */
     margin-top: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.carousel-item{
+    height : 32rem;
+    color: white;
+    position : relative;
 }
